@@ -1,0 +1,20 @@
+{
+    "predator-prey": {
+        "reactions": [
+            "X=>2X",
+            "X+Y=>Y",
+            "X+Y=>2Y+X",
+            "Y=>y"
+        ],
+        "rate_const": [
+            1.1,
+            0.4,
+            0.1,
+            0.4
+        ],
+        "initial_cond": {
+            "X": 10,
+            "Y": 10
+        }
+    }
+}
